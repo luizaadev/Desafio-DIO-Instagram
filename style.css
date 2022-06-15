@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 body {
@@ -53,13 +53,13 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 85%;
+    padding: 2.3rem 0;
     border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
-    min-height: 19rem;
+    min-height: 23rem;
 }
 
 .instagram-logo {
@@ -93,6 +93,7 @@ body {
 
 .not-account {
     color: rgb(160, 160, 160);
+    padding: 5px;
 }
 
 .link-blue {
@@ -112,10 +113,10 @@ body {
 
 .download {
     display: flex;
-    width: 100;
+    width: 70%;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
+    padding: 1.3rem;
 }
 
 .app-download {
